@@ -1,0 +1,29 @@
+
+<div ng-if="vm.allTasksForUser == null">
+	<br><br><br>
+	<p class="adit-text" align="center" >There are no tasks for {{vm.group.name}} group at the moment, enjoy your coffie :)</p>
+</div>
+<div ng-if="vm.allTasksForUser != null">
+	<br>
+	<p class="adit-text" align="center">These are all available tasks for {{vm.group.name}} group</p>
+	<br>
+
+	<div class="table-responsive">
+		<table class="table table-hover table-bordered">
+			<thead class="thead-inverse">
+			    <tr>
+			        <th>Student</th>
+			        <th>Task</th>
+			        <th>Claim task</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="task in vm.allTasksForUser">
+				    <td>{{vm.studentInfo[task.processInstanceId]}}</td>
+				    <td>{{task.name}}</td>
+				    <td><button type="button" class="btn btn-warning" ng-click="vm.claimTask(task.id)">Claim task</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

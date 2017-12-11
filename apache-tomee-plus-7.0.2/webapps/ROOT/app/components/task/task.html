@@ -1,0 +1,64 @@
+<div ng-if="vm.creatingCommission == false">
+	<p class="adit-text" align="center" >These are properties for task: {{vm.task.name}}</p>
+
+	<div class="table-responsive">
+		<table class="table table-hover table-bordered">
+			<thead class="thead-inverse">
+			    <tr>
+			        <th>Properties</th>
+			        <th>Action</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="property in vm.formData.formProperties">
+				    <td>{{property.name}}</td>
+				    <td>
+				    	<input ng-if="property.type == 'boolean'" type="checkbox" ng-init="vm.results[property.id] = true" ng-model="vm.results[property.id]">
+						<input ng-if="property.type == 'string'"  type="text" ng-model="vm.results[property.id]">
+						<input ng-if="property.type == 'integer'" type="text" ng-model="vm.results[property.id]">
+				    </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>	
+</div>
+
+<div ng-if="vm.creatingCommission == true">
+	<p class="adit-text" align="center" >These are properties for task: {{vm.task.name}}</p>
+	
+	<div class="table-responsive">
+		<table class="table table-hover table-bordered">
+			<thead class="thead-inverse">
+			    <tr>
+			        <th>Firstname</th>
+			        <th>Lastname</th>
+			        <th>Add professor to commission</th>
+			        <th>Pick commission president</th>
+			        <th>Pick commission mentor</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="professor in vm.professors">
+				    <td>{{professor.firstName}}</td>
+				    <td>{{professor.lastName}}</td>
+				    <td><input type="checkbox" id="professor.id" ng-model="vm.commissionProfessors[professor.id]"></td>
+				    <td><input type="radio" name="president" ng-value="professor.id" ng-model="vm.commissionPresident"></td>
+				    <td><input type="radio" name="mentor" ng-value="professor.id" ng-model="vm.commissionMentor"></td>   
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<p>*You must pick one commission president, one mentor and three more professors members</p>
+	<p>**Same person can not be president and mentor</p>		
+
+	<!-- <br>
+	<div class="textareapart" ng-if="$root.taskFormProperties.formProperties[0].id == 'objasnjenje_predloga'">
+		{{$root.taskFormProperties.formProperties[0].name}}:
+		<br>
+		<textarea rows="4" cols="50" ng-model="results[$root.taskFormProperties.formProperties[0].id]">
+		</textarea>
+	</div> -->
+</div>
+
+<a ng-href="#!/home" class="btn btn-warning">Back</a>
+<button type="button" ng-disabled="isDisabled" class="btn btn-success" ng-click="vm.executeTask()">Execute</button>

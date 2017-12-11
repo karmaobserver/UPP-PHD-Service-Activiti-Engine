@@ -1,0 +1,80 @@
+	<br><br>
+	<p class="adit-text">Choose mentor:</p>
+	<div class="table-responsive">
+		<table class="table table-hover table-bordered">
+			<thead class="thead-inverse">
+			    <tr>
+			        <th>Firstname</th>
+			        <th>Lastname</th>
+			        <th>Pick mentor</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="professor in vm.professors">
+				    <td>{{professor.firstName}}</td>
+				    <td>{{professor.lastName}}</td>
+				    <td><input type="radio" name="mentor" ng-value="professor.id" ng-model="vm.mentor"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br>
+
+	<p class="adit-text">Study program:</p>
+	<div class="table-responsive">
+		<table class="table table-hover table-bordered">
+			<thead class="thead-inverse">
+			    <tr>
+			        <th>Type of procedure</th>
+			        <th>Pick procedure</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr>
+				    <td>New procedure: </td>
+				    <td><input type="radio" name="studyType" ng-value="true" ng-model="vm.procedureType"></td>
+				</tr>
+				<tr>
+				    <td>Old procedure:</td>
+				    <td><input type="radio" name="studyType" ng-value="false" ng-model="vm.procedureType"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br>
+
+	<p class="adit-text">Department:</p>
+	<div class="table-responsive">
+		<table class="table table-hover table-bordered">
+			<thead class="thead-inverse">
+			    <tr>
+			        <th>Department</th>
+			        <th>Pick department</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="department in vm.departments">
+				    <td>{{department.name}}</td>
+				    <td><input type="radio" name="departmentType" ng-value="department.id" ng-model="vm.departmentType"></td>
+				</tr>			
+			</tbody>
+		</table>
+	</div>
+	<br>
+
+	<!-- Upload file    multiple ako hocu vise-->
+	<p class="adit-text">Upload documents:</p>
+	<input type="file" nv-file-select uploader="vm.uploader"/>	
+	<br>
+    <ul>
+        <li ng-repeat="item in vm.uploader.queue">
+            Name: <span ng-bind="item.file.name"></span><br/>
+            <button ng-click="item.upload()">upload</button>
+        </li>
+    </ul>
+
+	<!-- <br> -->
+	<div class="col-xs-4 col-xs-offset-4">
+		<button type="button" ng-click="vm.startProcess()" class="btn btn-success">Start procedure</button>
+	</div>
+	

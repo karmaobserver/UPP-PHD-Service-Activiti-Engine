@@ -1,0 +1,885 @@
+11-Apr-2017 01:08:29.095 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 01:08:29.096 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 01:08:29.096 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 01:08:29.096 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 01:08:29.096 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 01:08:29.096 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 01:08:29.096 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 01:08:29.096 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 01:08:29.097 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 01:08:29.097 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 01:08:29.097 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 01:08:29.097 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 01:08:29.097 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 01:08:29.097 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 01:08:29.097 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 01:08:29.098 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 01:08:29.098 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 01:08:29.098 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 01:08:29.098 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 01:08:29.098 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 01:08:29.728 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 01:08:29.969 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 01:08:29.973 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 01:08:29.981 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 01:08:33.176 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 01:08:33.747 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 01:08:33.748 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 01:08:33.748 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 01:08:33 CEST 2017
+11-Apr-2017 01:08:33.748 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 01:08:33.748 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 01:08:33.748 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 01:08:33.748 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 01:08:33.748 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 01:08:33.749 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 01:08:33.749 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 01:08:33.753 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@be60d4b
+11-Apr-2017 01:08:33.754 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 01:08:33.970 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 01:08:34.161 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 01:08:34.164 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 01:08:34.191 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 01:08:34.262 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 01:08:34.511 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 01:08:35.132 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 01:08:35.696 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 01:08:35.991 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 01:08:35.991 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 01:08:35.991 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 01:08:35.991 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 01:08:35.992 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 8368 ms
+11-Apr-2017 01:08:36.081 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 01:08:36.082 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 01:08:36.095 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 01:08:36.095 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 01:08:36.237 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 01:08:36.244 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 01:08:39.066 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 01:08:39.570 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 01:08:39.639 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 01:08:39.983 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 01:08:40.825 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 01:08:58.644 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 22,406 ms
+11-Apr-2017 01:08:58.657 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 01:08:58.658 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 01:08:58.700 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 01:08:58.705 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 01:08:58.705 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 01:08:58.716 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 01:08:58.747 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 01:08:58.813 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 156 ms
+11-Apr-2017 01:08:58.813 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 01:08:58.817 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 01:08:58.897 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 01:08:58.940 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 01:08:58.940 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 01:08:58.951 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 01:08:58.952 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 01:08:58.981 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 01:08:59.018 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 204 ms
+11-Apr-2017 01:08:59.018 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 01:08:59.044 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 01:08:59.109 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 01:08:59.121 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 01:08:59.121 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 01:08:59.129 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 01:08:59.130 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 01:08:59.163 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 01:08:59.196 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 178 ms
+11-Apr-2017 01:08:59.196 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 01:08:59.197 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 01:08:59.826 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 01:08:59.911 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 01:08:59.912 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp601584528: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 01:08:59.912 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 01:08:59.930 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 01:08:59.950 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 01:08:59.950 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 01:09:00.096 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 01:09:00.125 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 01:09:00.159 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 963 ms
+11-Apr-2017 01:09:00.172 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 01:09:00.178 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 01:09:00.179 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 24186 ms
+11-Apr-2017 11:01:50.720 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:01:50.720 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 11:01:50.720 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 11:01:50.721 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 11:01:50.721 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 11:01:50.721 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 11:01:50.721 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 11:01:50.721 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 11:01:50.721 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 11:01:50.722 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:01:50.722 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:01:50.722 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 11:01:50.722 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 11:01:50.722 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 11:01:50.722 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 11:01:50.723 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 11:01:50.723 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:01:50.723 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:01:50.723 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 11:01:50.723 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 11:01:52.947 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 11:01:54.641 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:01:54.674 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 11:01:54.678 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:02:10.529 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 11:02:14 CEST 2017
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:02:14.714 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:02:14.716 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@65d75ff7
+11-Apr-2017 11:02:14.716 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 11:02:16.083 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 11:02:16.984 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 11:02:16.987 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 11:02:17.078 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 11:02:17.570 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 11:02:20.280 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 11:02:25.186 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 11:02:33.670 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 11:02:35.180 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 11:02:35.181 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 11:02:35.181 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 11:02:35.181 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 11:02:35.181 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 49062 ms
+11-Apr-2017 11:02:35.570 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 11:02:35.570 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 11:02:35.630 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 11:02:35.630 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:02:36.177 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 11:02:36.184 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 11:02:48.913 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:02:50.920 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 11:03:02.805 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:03:04.177 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 11:03:07.478 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:24:04.849 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:24:04.852 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 11:24:04.852 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 11:24:04.852 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 11:24:04.853 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 11:24:04.853 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 11:24:04.853 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 11:24:04.853 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 11:24:04.853 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 11:24:04.854 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:24:04.854 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:24:04.854 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 11:24:04.855 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 11:24:04.855 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 11:24:04.856 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 11:24:04.856 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 11:24:04.857 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:24:04.857 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:24:04.857 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 11:24:04.857 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 11:24:05.100 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 11:24:05.137 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:24:05.142 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 11:24:05.148 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:24:05.750 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 11:24:05.874 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:24:05.874 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 11:24:05.874 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 11:24:05 CEST 2017
+11-Apr-2017 11:24:05.874 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 11:24:05.874 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 11:24:05.877 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 11:24:05.877 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 11:24:05.877 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:24:05.877 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:24:05.878 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:24:05.879 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@327626e9
+11-Apr-2017 11:24:05.880 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 11:24:05.913 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 11:24:05.975 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 11:24:05.978 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 11:24:05.981 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 11:24:05.996 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 11:24:06.069 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 11:24:06.141 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 11:24:06.299 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 11:24:06.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 11:24:06.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 11:24:06.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 11:24:06.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 11:24:06.368 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2118 ms
+11-Apr-2017 11:24:06.388 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 11:24:06.388 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 11:24:06.392 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 11:24:06.392 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:24:06.413 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 11:24:06.420 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 11:24:06.884 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:24:06.969 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 11:24:07.024 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:24:07.128 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 11:24:07.493 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:24:16.289 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 9,876 ms
+11-Apr-2017 11:24:16.290 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:24:16.290 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 11:24:16.319 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:24:16.324 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 11:24:16.324 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:24:16.332 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 11:24:16.354 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:24:16.384 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 94 ms
+11-Apr-2017 11:24:16.384 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:24:16.391 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 11:24:16.456 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:24:16.473 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 11:24:16.473 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:24:16.481 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 11:24:16.482 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 11:24:16.514 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:24:16.562 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 178 ms
+11-Apr-2017 11:24:16.562 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:24:16.575 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 11:24:16.632 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:24:16.648 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 11:24:16.648 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:24:16.669 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 11:24:16.670 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 11:24:16.696 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:24:16.733 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 170 ms
+11-Apr-2017 11:24:16.733 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:24:16.733 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 11:24:16.927 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:24:17.012 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 11:24:17.012 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp339283874: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 11:24:17.012 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 11:24:17.026 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 11:24:17.074 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 11:24:17.074 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:24:17.172 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 11:24:17.195 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:24:17.236 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 503 ms
+11-Apr-2017 11:24:17.278 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 11:24:17.284 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 11:24:17.285 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 10916 ms
+11-Apr-2017 11:26:32.894 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:26:32.894 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 11:26:32.894 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 11:26:32.894 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 11:26:32.894 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 11:26:32.894 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 11:26:32.894 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 11:26:32.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 11:26:32.896 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:26:32.896 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:26:32.896 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 11:26:32.896 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 11:26:33.179 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 11:26:33.215 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:26:33.220 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 11:26:33.230 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:26:33.772 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 11:26:33 CEST 2017
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 11:26:33.906 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:26:33.907 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:26:33.907 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:26:33.919 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1c9c8288
+11-Apr-2017 11:26:33.919 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 11:26:33.950 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 11:26:33.998 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 11:26:34.001 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 11:26:34.003 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 11:26:34.017 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 11:26:34.094 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 11:26:34.163 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 11:26:34.317 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 11:26:34.391 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 11:26:34.392 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 11:26:34.392 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 11:26:34.392 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 11:26:34.392 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2051 ms
+11-Apr-2017 11:26:34.425 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 11:26:34.425 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 11:26:34.430 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 11:26:34.430 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:26:34.461 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 11:26:34.469 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 11:26:35.011 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:26:35.084 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 11:26:35.132 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:26:35.234 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 11:26:35.493 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:26:43.767 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 9,307 ms
+11-Apr-2017 11:26:43.768 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:26:43.768 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 11:26:43.788 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:26:43.794 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 11:26:43.794 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:26:43.802 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 11:26:43.825 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:26:43.846 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 78 ms
+11-Apr-2017 11:26:43.847 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:26:43.849 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 11:26:43.879 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:26:43.887 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 11:26:43.887 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:26:43.894 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 11:26:43.895 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 11:26:43.922 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:26:43.948 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 101 ms
+11-Apr-2017 11:26:43.948 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:26:43.949 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 11:26:43.972 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:26:43.980 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 11:26:43.980 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:26:43.987 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 11:26:43.988 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 11:26:44.013 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:26:44.033 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 85 ms
+11-Apr-2017 11:26:44.033 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:26:44.034 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 11:26:44.185 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:26:44.225 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 11:26:44.225 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp180344447: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 11:26:44.226 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 11:26:44.234 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 11:26:44.249 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 11:26:44.249 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:26:44.301 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 11:26:44.324 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:26:44.346 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 313 ms
+11-Apr-2017 11:26:44.350 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 11:26:44.355 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 11:26:44.356 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 9964 ms
+11-Apr-2017 11:50:16.892 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:50:16.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 11:50:16.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 11:50:16.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 11:50:16.895 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 11:50:16.896 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 11:50:16.896 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 11:50:16.896 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 11:50:16.896 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 11:50:16.896 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:50:16.897 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:50:16.897 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 11:50:16.897 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 11:50:16.898 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 11:50:16.898 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 11:50:16.898 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 11:50:16.899 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:50:16.899 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:50:16.899 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 11:50:16.899 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 11:50:17.215 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 11:50:17.263 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:50:17.267 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 11:50:17.273 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:50:17.884 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 11:50:17 CEST 2017
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 11:50:17.995 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:50:17.996 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:50:17.996 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:50:17.997 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@19fa9f87
+11-Apr-2017 11:50:17.997 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 11:50:18.030 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 11:50:18.075 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 11:50:18.077 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 11:50:18.081 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 11:50:18.100 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 11:50:18.167 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 11:50:18.255 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 11:50:18.426 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 11:50:18.494 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 11:50:18.494 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 11:50:18.494 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 11:50:18.494 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 11:50:18.494 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2156 ms
+11-Apr-2017 11:50:18.515 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 11:50:18.515 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 11:50:18.520 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 11:50:18.520 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:50:18.541 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 11:50:18.548 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 11:50:19.010 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:50:19.094 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 11:50:19.141 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:50:19.233 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 11:50:19.664 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:50:27.416 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 8,875 ms
+11-Apr-2017 11:50:27.417 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:50:27.417 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 11:50:27.437 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:50:27.442 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 11:50:27.442 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:50:27.450 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 11:50:27.470 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:50:27.491 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 74 ms
+11-Apr-2017 11:50:27.491 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:50:27.493 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 11:50:27.523 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:50:27.531 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 11:50:27.532 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:50:27.539 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 11:50:27.540 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 11:50:27.570 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:50:27.605 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 114 ms
+11-Apr-2017 11:50:27.605 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:50:27.607 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 11:50:27.632 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:50:27.640 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 11:50:27.640 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:50:27.648 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 11:50:27.649 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 11:50:27.675 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:50:27.703 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 98 ms
+11-Apr-2017 11:50:27.704 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:50:27.704 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 11:50:27.881 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:50:27.926 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 11:50:27.927 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp1929746439: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 11:50:27.927 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 11:50:27.935 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 11:50:27.950 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 11:50:27.950 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:50:28.010 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 11:50:28.041 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:50:28.088 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 384 ms
+11-Apr-2017 11:50:28.100 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 11:50:28.108 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 11:50:28.109 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 9614 ms
+11-Apr-2017 11:56:21.598 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:56:21.599 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 11:56:21.599 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 11:56:21.599 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 11:56:21.599 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 11:56:21.599 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 11:56:21.599 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 11:56:21.600 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 11:56:21.601 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 11:56:21.601 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:56:21.601 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 11:56:21.601 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 11:56:21.602 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 11:56:21.912 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 11:56:21.968 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:56:21.972 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 11:56:21.981 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 11:56:22.547 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 11:56:22.682 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:56:22.682 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 11:56:22.682 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 11:56:22 CEST 2017
+11-Apr-2017 11:56:22.682 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 11:56:22.683 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 11:56:22.685 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 11:56:22.685 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 11:56:22.685 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 11:56:22.685 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:56:22.685 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 11:56:22.692 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1c9c8288
+11-Apr-2017 11:56:22.693 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 11:56:22.726 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 11:56:22.776 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 11:56:22.778 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 11:56:22.786 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 11:56:22.807 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 11:56:22.895 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 11:56:22.971 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 11:56:23.146 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 11:56:23.222 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 11:56:23.222 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 11:56:23.222 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 11:56:23.222 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 11:56:23.222 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2223 ms
+11-Apr-2017 11:56:23.248 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 11:56:23.248 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 11:56:23.252 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 11:56:23.252 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 11:56:23.276 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 11:56:23.283 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 11:56:23.806 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:56:23.886 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 11:56:23.933 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 11:56:24.027 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 11:56:24.293 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:56:32.872 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 9,595 ms
+11-Apr-2017 11:56:32.873 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:56:32.873 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 11:56:32.905 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:56:32.911 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 11:56:32.912 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 11:56:32.922 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 11:56:32.944 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:56:32.964 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 91 ms
+11-Apr-2017 11:56:32.965 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:56:32.967 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 11:56:32.999 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:56:33.008 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 11:56:33.009 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 11:56:33.015 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 11:56:33.017 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 11:56:33.049 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:56:33.089 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 125 ms
+11-Apr-2017 11:56:33.090 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:56:33.091 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 11:56:33.122 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:56:33.130 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 11:56:33.131 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 11:56:33.138 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 11:56:33.139 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 11:56:33.165 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:56:33.195 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 105 ms
+11-Apr-2017 11:56:33.195 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:56:33.195 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 11:56:33.364 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:56:33.408 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 11:56:33.408 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp453341372: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 11:56:33.409 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 11:56:33.417 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 11:56:33.433 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 11:56:33.434 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 11:56:33.546 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 11:56:33.576 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 11:56:33.632 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 437 ms
+11-Apr-2017 11:56:33.648 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 11:56:33.656 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 11:56:33.658 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 10435 ms
+11-Apr-2017 12:06:20.306 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 12:06:20.307 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 12:06:20.308 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 12:06:20.309 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 12:06:20.309 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 12:06:20.541 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 12:06:20.585 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 12:06:20.588 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 12:06:20.593 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 12:06:21.169 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 12:06:21.299 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 12:06:21.299 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 12:06:21.299 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 12:06:21 CEST 2017
+11-Apr-2017 12:06:21.299 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 12:06:21.300 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 12:06:21.301 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 12:06:21.301 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 12:06:21.301 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 12:06:21.301 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:06:21.301 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:06:21.311 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1c9c8288
+11-Apr-2017 12:06:21.311 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 12:06:21.341 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 12:06:21.415 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 12:06:21.417 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 12:06:21.421 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 12:06:21.435 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 12:06:21.503 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 12:06:21.573 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 12:06:21.752 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 12:06:21.821 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 12:06:21.821 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 12:06:21.821 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 12:06:21.821 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 12:06:21.821 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2255 ms
+11-Apr-2017 12:06:21.842 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 12:06:21.842 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 12:06:21.847 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 12:06:21.847 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 12:06:21.868 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 12:06:21.878 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 12:06:22.343 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 12:06:22.435 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 12:06:22.488 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 12:06:22.584 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 12:06:23.000 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:06:32.269 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 10,401 ms
+11-Apr-2017 12:06:32.270 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 12:06:32.270 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 12:06:32.289 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 12:06:32.294 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 12:06:32.294 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 12:06:32.303 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 12:06:32.328 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:06:32.351 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 81 ms
+11-Apr-2017 12:06:32.351 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 12:06:32.353 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 12:06:32.384 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 12:06:32.392 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 12:06:32.392 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 12:06:32.399 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 12:06:32.400 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 12:06:32.432 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:06:32.470 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 119 ms
+11-Apr-2017 12:06:32.470 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 12:06:32.471 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 12:06:32.516 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 12:06:32.524 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 12:06:32.524 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 12:06:32.531 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 12:06:32.532 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 12:06:32.561 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:06:32.602 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 132 ms
+11-Apr-2017 12:06:32.602 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 12:06:32.602 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 12:06:32.790 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 12:06:32.836 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 12:06:32.837 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp453341372: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 12:06:32.837 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 12:06:32.845 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 12:06:32.915 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 12:06:32.915 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 12:06:32.976 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 12:06:33.000 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:06:33.023 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 421 ms
+11-Apr-2017 12:06:33.028 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 12:06:33.034 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 12:06:33.035 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 11213 ms
+11-Apr-2017 12:34:44.998 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 12:34:45.001 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 12:34:45.002 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 12:34:45.002 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 12:34:45.002 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 12:34:45.002 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 12:34:45.002 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 12:34:45.003 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 12:34:45.003 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 12:34:45.003 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:34:45.003 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:34:45.004 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 12:34:45.004 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 12:34:45.004 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 12:34:45.005 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 12:34:45.005 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 12:34:45.005 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 12:34:45.006 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 12:34:45.006 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 12:34:45.006 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 12:34:45.262 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 12:34:45.299 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 12:34:45.302 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 12:34:45.308 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 12:34:45.939 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 12:34:46 CEST 2017
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:34:46.093 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 12:34:46.106 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4cc87df3
+11-Apr-2017 12:34:46.106 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 12:34:46.157 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 12:34:46.226 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 12:34:46.228 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 12:34:46.232 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 12:34:46.247 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 12:34:46.330 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 12:34:46.416 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 12:34:46.587 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 12:34:46.654 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 12:34:46.654 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 12:34:46.654 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 12:34:46.654 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 12:34:46.655 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2288 ms
+11-Apr-2017 12:34:46.676 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 12:34:46.676 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 12:34:46.680 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 12:34:46.680 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 12:34:46.700 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 12:34:46.707 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 12:34:47.281 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 12:34:47.358 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 12:34:47.404 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 12:34:47.495 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 12:34:47.930 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:34:56.945 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 10,245 ms
+11-Apr-2017 12:34:56.946 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 12:34:56.946 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 12:34:56.983 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 12:34:56.989 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 12:34:56.989 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 12:34:56.998 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 12:34:57.026 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:34:57.049 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 103 ms
+11-Apr-2017 12:34:57.049 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 12:34:57.052 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 12:34:57.086 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 12:34:57.096 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 12:34:57.096 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 12:34:57.103 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 12:34:57.104 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 12:34:57.137 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:34:57.176 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 127 ms
+11-Apr-2017 12:34:57.176 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 12:34:57.177 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 12:34:57.214 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 12:34:57.225 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 12:34:57.226 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 12:34:57.235 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 12:34:57.236 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 12:34:57.264 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:34:57.299 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 123 ms
+11-Apr-2017 12:34:57.299 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 12:34:57.300 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 12:34:57.479 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 12:34:57.521 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 12:34:57.522 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp1795439802: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 12:34:57.522 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 12:34:57.531 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 12:34:57.545 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 12:34:57.548 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 12:34:57.604 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 12:34:57.628 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 12:34:57.662 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 362 ms
+11-Apr-2017 12:34:57.676 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 12:34:57.682 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 12:34:57.684 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 11028 ms
+11-Apr-2017 13:00:15.680 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 13:00:15.680 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+11-Apr-2017 13:00:15.680 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 7
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.7.0_79-b15
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/conf/logging.properties
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/lib/openejb-javaagent.jar
+11-Apr-2017 13:00:15.681 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2017 13:00:15.682 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2017 13:00:15.682 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 13:00:15.682 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2
+11-Apr-2017 13:00:15.682 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:/Users/Makso/Desktop/Finalproject/apache-tomee-plus-7.0.2/temp
+11-Apr-2017 13:00:15.682 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Makso\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Makso\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;D:\program files\git\cmd;D:\program files\nodejs;D:\program files\python;C:\Program Files (x86)\Skype\Phone;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl;.
+11-Apr-2017 13:00:15.987 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+11-Apr-2017 13:00:16.026 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 13:00:16.030 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Apr-2017 13:00:16.035 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+11-Apr-2017 13:00:16.651 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Apr 11 13:00:16 CEST 2017
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+11-Apr-2017 13:00:16.785 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+11-Apr-2017 13:00:16.786 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 13:00:16.786 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2
+11-Apr-2017 13:00:16.798 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@65d2530
+11-Apr-2017 13:00:16.798 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+11-Apr-2017 13:00:16.828 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\conf\tomee.xml'
+11-Apr-2017 13:00:16.894 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+11-Apr-2017 13:00:16.896 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+11-Apr-2017 13:00:16.900 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+11-Apr-2017 13:00:16.916 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+11-Apr-2017 13:00:16.998 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+11-Apr-2017 13:00:17.072 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+11-Apr-2017 13:00:17.236 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+11-Apr-2017 13:00:17.310 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+11-Apr-2017 13:00:17.310 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+11-Apr-2017 13:00:17.310 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+11-Apr-2017 13:00:17.310 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+11-Apr-2017 13:00:17.310 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2195 ms
+11-Apr-2017 13:00:17.330 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+11-Apr-2017 13:00:17.331 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+11-Apr-2017 13:00:17.335 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+11-Apr-2017 13:00:17.335 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+11-Apr-2017 13:00:17.355 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war
+11-Apr-2017 13:00:17.361 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /activiti-rest
+11-Apr-2017 13:00:17.913 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 13:00:18.001 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest" loaded.
+11-Apr-2017 13:00:18.048 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest
+11-Apr-2017 13:00:18.141 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest)
+11-Apr-2017 13:00:18.527 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 13:00:26.504 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\activiti-rest.war has finished in 9,149 ms
+11-Apr-2017 13:00:26.505 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 13:00:26.505 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+11-Apr-2017 13:00:26.526 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 13:00:26.531 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+11-Apr-2017 13:00:26.531 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs
+11-Apr-2017 13:00:26.539 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs)
+11-Apr-2017 13:00:26.562 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 13:00:26.584 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\docs has finished in 79 ms
+11-Apr-2017 13:00:26.584 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 13:00:26.586 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+11-Apr-2017 13:00:26.618 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 13:00:26.627 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+11-Apr-2017 13:00:26.627 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager
+11-Apr-2017 13:00:26.634 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+11-Apr-2017 13:00:26.635 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager)
+11-Apr-2017 13:00:26.664 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 13:00:26.700 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 115 ms
+11-Apr-2017 13:00:26.700 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 13:00:26.702 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+11-Apr-2017 13:00:26.728 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 13:00:26.737 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+11-Apr-2017 13:00:26.737 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager
+11-Apr-2017 13:00:26.755 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+11-Apr-2017 13:00:26.756 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager)
+11-Apr-2017 13:00:26.783 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 13:00:26.813 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\manager has finished in 113 ms
+11-Apr-2017 13:00:26.813 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 13:00:26.813 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+11-Apr-2017 13:00:26.985 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 13:00:27.042 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+11-Apr-2017 13:00:27.042 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean .Comp546236266: Container(type=MANAGED, id=Default Managed Container)
+11-Apr-2017 13:00:27.042 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+11-Apr-2017 13:00:27.051 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\temp for stateful session passivation
+11-Apr-2017 13:00:27.123 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+11-Apr-2017 13:00:27.124 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT
+11-Apr-2017 13:00:27.184 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT)
+11-Apr-2017 13:00:27.213 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Apr-2017 13:00:27.266 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory C:\Users\Makso\Desktop\Finalproject\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 453 ms
+11-Apr-2017 13:00:27.282 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+11-Apr-2017 13:00:27.294 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+11-Apr-2017 13:00:27.296 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 9984 ms

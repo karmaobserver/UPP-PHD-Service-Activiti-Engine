@@ -1,0 +1,19 @@
+.adit-text {
+	font-size: 20px;
+	font-style: bold;
+	/*A65E00*/
+	color: #CF8702;
+	text-decoration: underline;
+	/*text-decoration-color: orange;*/
+}
+
+th {
+	color: black;
+    /*background-color: #4CAF50;  */
+    background-color: #CFB837;  
+}
+
+ .dropdown-menu li a:hover{ 
+    background-color: orange;
+}
+
